@@ -28,14 +28,14 @@ public class Jugador extends Futbolista {
 		return false;}
 	///////////////////////////////////////////
 	
-	public Short getGolesMarcados() {
+	public short getGolesMarcados() {
 		return this.golesMarcados;}
-	public void setGolesMarcados(Short golesMarcados) {
+	public void setGolesMarcados(short golesMarcados) {
 		this.golesMarcados = golesMarcados;}
 	
-	public Byte getDorsal() {
+	public byte getDorsal() {
 		return this.dorsal = dorsal;}
-	public void setDorsal(Byte dorsal) {
+	public void setDorsal(byte dorsal) {
 		this.dorsal = dorsal;}
 	///////////////////////////////////////////
 	

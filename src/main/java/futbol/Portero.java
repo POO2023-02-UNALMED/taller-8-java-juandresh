@@ -12,7 +12,7 @@ public class Portero extends Futbolista{
 	/////////////////////////////////////
 	
 	public String toString() {
-		return("El futbolista "+this.getNombre()+" tiene "+this.getEdad()+ ", y juega de "+this.getPosicion()+" con el dorsal "+this.dorsal+ ". Le han marcado "+this.golesRecibidos);
+		return("El futbolista "+this.getNombre()+" tiene "+this.getEdad()+", y juega de "+this.getPosicion()+" con el dorsal "+this.dorsal+". Le han marcado "+this.golesRecibidos);
 	}
 	/////////////////////////////////////
 	
@@ -21,14 +21,14 @@ public class Portero extends Futbolista{
 		return true;}
 	/////////////////////////////////////
 	
-	public Short getGolesRecibidos() {
+	public short getGolesRecibidos() {
 		return this.golesRecibidos;}
-	public void setGolesRecibidos(Short golesRecibidos) {
+	public void setGolesRecibidos(short golesRecibidos) {
 		this.golesRecibidos = golesRecibidos;}
 	
-	public Byte getDorsal() {
+	public byte getDorsal() {
 		return this.dorsal = dorsal;}
-	public void setDorsal(Byte dorsal) {
+	public void setDorsal(byte dorsal) {
 		this.dorsal = dorsal;}
 	/////////////////////////////////////
 	
