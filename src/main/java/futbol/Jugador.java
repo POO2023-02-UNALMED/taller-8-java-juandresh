@@ -11,7 +11,7 @@ public class Jugador extends Futbolista {
 		}
 	//////////////////////////////////////////
 	
-	public Jugador() {
+	public Jugador() { 
 		super();
 		this.golesMarcados = 289;
 		this.dorsal = 7;

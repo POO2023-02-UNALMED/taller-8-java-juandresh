@@ -12,7 +12,7 @@ public abstract class Futbolista implements Comparable<Object>{
 		this.posicion = posicion;
 	}
 	
-	public Futbolista() {
+	public Futbolista() { 
 		this("Maradona",30,"delantero");
 	}
 	
