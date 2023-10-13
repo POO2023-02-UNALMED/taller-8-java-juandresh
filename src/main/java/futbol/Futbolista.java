@@ -13,7 +13,7 @@ public abstract class Futbolista implements Comparable<Objects>{
 	}
 	
 	public Futbolista() {
-		this("Maradona",30,"delantero")
+		this("Maradona",30,"delantero");
 	}
 	
 	public String toString() {
