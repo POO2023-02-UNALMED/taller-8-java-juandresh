@@ -23,7 +23,7 @@ public class Jugador extends Futbolista {
 	}
 	//////////////////////////////////////////
 	
-	@override
+	@Override
 	public boolean jugarConLasManos() {
 		return false;}
 	///////////////////////////////////////////
@@ -39,7 +39,7 @@ public class Jugador extends Futbolista {
 		this.dorsal = dorsal;}
 	///////////////////////////////////////////
 	
-	@override
+	@Override
 	public int compareTo(Jugador otro) {
 		int diferencia= Math.abs(this.getEdad() - otro.getEdad());
 		return diferencia;
