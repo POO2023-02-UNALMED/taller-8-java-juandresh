@@ -39,7 +39,7 @@ public class Jugador extends Futbolista {
 	///////////////////////////////////////////
 	
 	public int compareTo(Jugador otro) {
-		int diferencia= Math.abs(this.edad - otro.edad);
+		int diferencia= Math.abs(this.edad - otro.getEdad());
 		return diferencia;
 	}
 }
