@@ -4,7 +4,7 @@ public class Portero extends Futbolista{
 	public Short golesRecibidos;
 	public Byte dorsal;
 	
-	public Portero(String nombre, int edad, String posicion, Short golesMarcados, Byte dorsal) {
+	public Portero(String nombre, int edad, Short golesRecibidos, Byte dorsal) {
 		super(nombre, edad, "portero");
 		this.golesRecibidos = golesRecibidos;
 		this.dorsal = dorsal;
@@ -33,7 +33,7 @@ public class Portero extends Futbolista{
 	/////////////////////////////////////
 	
 	@Override
-	public int compareTo(Portero otro) {
+	public int compareTo(Object otro) {
 		int diferencia= Math.abs(this.golesRecibidos - otro.golesRecibidos);
 		return diferencia;
 	}
