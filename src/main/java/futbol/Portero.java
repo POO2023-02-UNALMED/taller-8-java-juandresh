@@ -16,6 +16,7 @@ public class Portero extends Futbolista{
 	}
 	/////////////////////////////////////
 	
+	@override
 	public boolean jugarConLasManos() {
 		return true;}
 	/////////////////////////////////////
@@ -31,6 +32,7 @@ public class Portero extends Futbolista{
 		this.dorsal = dorsal;}
 	/////////////////////////////////////
 	
+	@override
 	public int compareTo(Portero otro) {
 		int diferencia= Math.abs(this.golesRecibidos - otro.golesRecibidos);
 		return diferencia;

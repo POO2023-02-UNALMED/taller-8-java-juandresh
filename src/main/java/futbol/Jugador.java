@@ -11,7 +11,7 @@ public class Jugador extends Futbolista {
 		}
 	//////////////////////////////////////////
 	
-	public Jugador(String nombre, int edad, String posicion, Short golesMarcados, Byte dorsal) {
+	public Jugador() {
 		super();
 		this.golesMarcados = 289;
 		this.dorsal = 7;
@@ -23,6 +23,7 @@ public class Jugador extends Futbolista {
 	}
 	//////////////////////////////////////////
 	
+	@override
 	public boolean jugarConLasManos() {
 		return false;}
 	///////////////////////////////////////////
@@ -38,8 +39,9 @@ public class Jugador extends Futbolista {
 		this.dorsal = dorsal;}
 	///////////////////////////////////////////
 	
+	@override
 	public int compareTo(Jugador otro) {
-		int diferencia= Math.abs(this.edad - otro.getEdad());
+		int diferencia= Math.abs(this.getEdad() - otro.getEdad());
 		return diferencia;
 	}
 }
