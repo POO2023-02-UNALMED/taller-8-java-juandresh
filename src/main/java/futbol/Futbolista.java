@@ -1,10 +1,10 @@
 package futbol;
-import java.lang.Comparable;
+//import java.lang.Comparable;
 
 public abstract class Futbolista implements Comparable<Object>{
 	private String nombre;
 	private int edad;
-	private final String posicion;
+	private String posicion;
 	
 	public Futbolista (String nombre, int edad, String posicion) {
 		this.nombre = nombre;
@@ -45,8 +45,5 @@ public abstract class Futbolista implements Comparable<Object>{
 	
 	public String getPosicion() {
 		return this.posicion;
-	}
-	public void setPosicion(String posicion) {
-		this.posicion = posicion;
 	}
 }
